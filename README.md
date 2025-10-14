@@ -17,6 +17,8 @@ The list of GitHub repositories analyzed in the study is provided at [sampling/p
   - [Statistical Analysis \& Plots](#statistical-analysis--plots)
   - [Distribution of Programming Languages](#distribution-of-programming-languages)
   - [Paid vs Volunteering Analysis](#paid-vs-volunteering-analysis)
+  - [Average and Standard Deviation of Repositories age](#average-and-standard-deviation-of-the-age-of-repositories)
+  - [FreeBSD Age of Developers](#freebsd-age-of-developers)
 
 ---
 
@@ -85,4 +87,12 @@ To analyze differences between company-backed and volunteering projects:
 2. See `random_sample.py` to understand how the random sample of repositories for manual classification was generated.
 3. Observe the  classification of  the repositories in `random_repos_sample.txt` as company or volunteering projects.
 4. Run `python find_enterprise_projects.py` to find the number of repositories from our sample that is classified as enterprise or enterprise-like from a dataset about open-source enterprise software(https://zenodo.org/records/3742962). 
+
+## Average and Standard Deviation of the age of Repositories
+1. Navigate to the `projects_maturity` directory.
+2. Run `python find_average_std.py` to find the average and the standard deviation for the repositories of the sample.
+
+## FreeBSD Age of Developers
+1. Navigate to the `freebsd-age` directory.
+2. Run `./freebsd-age.sh` and observe the average age for FreeBSD developers in 2007 and 2023.
 ---
